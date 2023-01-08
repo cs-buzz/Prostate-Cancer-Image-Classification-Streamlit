@@ -2,6 +2,7 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 import numpy as np
+from tensorflow.keras.models import load_model
 from tensorflow.keras import preprocessing
 
 st.title('Prostate Cancer Image Classification')
@@ -29,7 +30,7 @@ if file_uploaded is not None:
   image = Image.open(file_uploaded)
   st.image(image, caption='Uploaded Image', use_column_width=True)
 if file_uploaded is None:
-  st.write("Invalid command, please upload an image")
+  st.text("Please upload an image file")
 else:
   with st.spinner('Model working....'):
     predictions = predict(image)
