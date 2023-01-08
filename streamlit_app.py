@@ -6,8 +6,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras import preprocessing
 
 st.title('Prostate Cancer Image Classification')
-
-# file = st.file_uploader('Please upload an image file', type=['jpg', 'png', 'tif'])
+st.image(Image.open('avatar.webp'), caption='Gleason Score', use_column_width=True)
 
 def predict(image):
   model = load_model('prostate_model_densenet.h5')
