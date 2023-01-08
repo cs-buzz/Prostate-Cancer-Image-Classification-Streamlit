@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 import numpy as np
-from tf.keras import preprocessing
+from tensorflow.keras import preprocessing
 
 st.title('Prostate Cancer Image Classification')
 
