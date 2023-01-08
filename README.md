@@ -21,4 +21,4 @@ streamlit: 1.8.1
 | DenseNet 201   | **80%** |      707       | 18,321,984 |
 
 ## The Dataset
-https://ukmedumy-my.sharepoint.com/personal/afzan_ukm_edu_my/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fafzan%5Fukm%5Fedu%5Fmy%2FDocuments%2FTC2013%20HUKM%20dataset%2Fprostate%20class
+https://ukmedumy-my.sharepoint.com/:f:/g/personal/afzan_ukm_edu_my/EvZX_tpa9WlBmq52vu0juisBmK6wNW45aIoxmFmaiw_Uew?e=BKDsCk
